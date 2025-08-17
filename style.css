@@ -1,0 +1,102 @@
+body {
+    
+     position: relative;
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center ;
+     align-items: center;
+     
+ }
+ 
+ .iframe-container
+ {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 150px;
+    background-color: rgb(29, 132, 132);
+    box-shadow: 0 4px 8px rgb(0, 0, 1);
+    border-radius: 5cqb;
+    text-align: center;
+    
+ }
+ .iframe-container iframe
+ {
+    width: 100%;
+    height: auto;
+    border-radius:30px;
+    border: 2px solid rgb(69, 55, 136);
+    border-radius: 40px 40px 40px 40px;
+    margin-bottom: 30px;
+   
+    
+ }
+ .container .btn {
+     display: flex;
+     gap: 25px;
+ }
+ .btn a {
+     text-decoration: none;
+     color: #2f7e3a;
+     background: #e3e0e0;
+     padding: 10px 25px;
+     border-radius: 8px;
+     box-shadow: 0.5rem 1rem 3rem hsla(252, 89%, 28%, 0.3);
+ }
+ .ti h1 {
+color: rgb(213, 131, 23);
+font-size: 50px;
+text-align: center;
+ }
+ .ti p{
+    color: rgb(125, 78, 228);
+    font-size: 60px;
+    text-align:center;
+ }
+ .ti h2{
+   text-align: center;
+   font-size: 60px;
+ }
+ .container
+ {
+   text-align:right;
+ }
+
+ .video-2
+ {
+   max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(29, 132, 132);
+    box-shadow: 0 4px 8px rgb(0, 0, 1);
+    border-radius: 10px;
+    text-align: center;
+
+ }
+ .video-2 video 
+ {
+    width: 100%;
+    height: auto;
+    border-radius:10px;
+    border: 2px solid rgb(69, 55, 136);
+    border-radius: 40px 40px 40px 40px;  
+ }
+ 
+   
+ .btn2 a
+ {
+   text-decoration: none;
+     color: #2f7e3a;
+     background: #e3e0e0;
+     padding: 10px 25px;
+     border-radius: 8px;
+     box-shadow: 0.5rem 1rem 3rem hsla(252, 86%, 30%, 0.3);
+     
+ }
+ .btn2
+ {
+   position: absolute;
+   top: 70;
+   left: 40%;
+   
+ }
